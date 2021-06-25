@@ -1,0 +1,16 @@
+{
+    "name": "Galeri",
+    "alias": "galeri",
+    "description": "Module Galeri untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Galeri\\Providers\\GaleriServiceProvider"
+    ],
+    "aliases": {
+        "Album": "Modules\\Galeri\\Entities\\Album", 
+        "Galeri": "Modules\\Galeri\\Entities\\Galeri"
+    },
+    "files": [],
+    "requires": []
+}
